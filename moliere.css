@@ -24,4 +24,14 @@
 .MONSIEUR-JOURDAIN{
     color: salmon;
 }
-
+table,td,tr{
+    border: 2px solid black;
+    color: black;
+  }
+  th{
+    border: 2px solid crimson;
+    color: crimson;
+  }
+  td{
+    text-align: left;
+  }
