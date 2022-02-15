@@ -27,6 +27,8 @@
 table,td,tr{
     border: 2px solid black;
     color: black;
+    margin: 1px;
+    padding: 3mm;
   }
   th{
     border: 2px solid crimson;
@@ -34,6 +36,9 @@ table,td,tr{
   }
   td{
     text-align: left;
+  }
+  tr:nth-child(even){
+    background-color: rgb(135, 235, 157);
   }
 
   span h6:hover{
